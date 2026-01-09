@@ -1,0 +1,9 @@
+{
+  "name": "klapmuts-rugby-hub",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace=apps/api"
+  }
+}
